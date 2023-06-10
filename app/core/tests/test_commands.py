@@ -9,11 +9,8 @@ from django.core.management import call_command
 from django.db.utils import OperationalError
 from django.test import SimpleTestCase
 
-# from django.core import management
-# import os
 import django
 
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'site.settings')
 
 django.setup()
 
